@@ -5,8 +5,8 @@ export const Props = () => {
 
   const personas =[
     { id: 1, nombre: 'Katsuko Saruhashi', img: '/images/Katsuko.png', tamaño: '150px' },
-    { id: 2, nombre: 'Aklilu Lemma', img:' /images/Aklilu.png', tamaño: '120px' },
-    { id: 3, nombre: 'Lin Lanying', img:' /images/Lin.png', tamaño: '100px' },
+    { id: 2, nombre: 'Aklilu Lemma', img: '/images/Aklilu.png', tamaño: '120px' },
+    { id: 3, nombre: 'Lin Lanying', img: '/images/Lin.png', tamaño: '100px' },
   ]
 
   return (
