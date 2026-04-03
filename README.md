@@ -44,37 +44,51 @@ Sección educativa que renderiza dinámicamente tarjetas de científicas destaca
 
 ```
 MyFirstApp/
+|
 ├── public/
 │   └── images/              # Imágenes estáticas de productos y personajes
 │       ├── Katsuko.png
 │       ├── Aklilu.png
 │       ├── Lin.png
+│       ├── AudicularesGamer.png
 │       ├── MouseGamer.png
 │       ├── TecladoGamer.png
-│       └── ...
+│       ├── Logo.png
+│       ├── MousePadGamer.png
+│       ├── PantallaGamer.png
+│       └── SillaGamer.png
+|
 ├── src/
 │   ├── articles/
 │   │   ├── components/
 │   │   │   └── Articles.jsx      # Componente principal del catálogo
 │   │   ├── hooks/                # Custom hooks del módulo articles
 │   │   └── pages/
+|   |
 │   ├── layout/
 │   │   ├── components/
 │   │   │   ├── Header.jsx        # Navbar con búsqueda y navegación
 │   │   │   ├── Footer.jsx        # Pie de página con copyright
 │   │   │   └── Content.jsx       # Contenedor principal de contenido
+│   │   ├── pages/
 │   │   └── hooks/
+|   |
 │   ├── props/
 │   │   ├── components/
 │   │   │   └── Persons.jsx       # Componente reutilizable de tarjeta de persona
 │   │   ├── hooks/
 │   │   └── pages/
 │   │       └── Props.jsx         # Página educativa de Props
+|   |
 │   ├── App.jsx                   # Componente raíz y configuración de rutas
 │   └── main.jsx                  # Punto de entrada de la aplicación
+|
 ├── index.html
 ├── vite.config.js
+├── package-lock.json
 ├── package.json
+├── eslint.config.js
+├── README.md
 └── .gitignore
 ```
 
